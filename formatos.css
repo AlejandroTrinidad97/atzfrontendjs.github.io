@@ -1,0 +1,363 @@
+body{
+    background-image: url("./fondo.jpg");
+    background-color: rgb(255, 255, 255);
+}
+
+#pokedexImg {
+    display: grid;
+    grid-template-columns: 5% 90% 5% ;
+    grid-template-rows: 5% 90% 5%;
+}
+
+#pokedexImg #pokeImg{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 1000px;
+    height: 740px;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+}
+
+#pokedexImg #pokeImgball{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 250px;
+    height: 250px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    left: -255px;
+    top: 5px;
+    z-index: 1;
+}
+#pokedexImg #pokeName{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 150px;
+    height: 30px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    left: -290px;
+    top: 270px;
+    z-index: 1;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 20px;
+    color:rgb(156, 120, 0);
+}
+
+#pokedexImg #pokeBottom{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    left: -120px;
+    top: 265px;
+    z-index: 20;
+    background-color:hsl(182, 86%, 52%);
+    border-radius:5px;
+    text-decoration:none;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #pokeTitulo1{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: -350px;
+    right: -160px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 65px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(255, 222, 32);
+    -webkit-text-stroke: 2px black;
+}
+
+#pokedexImg #pokeTitulo2{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: -250px;
+    right: -500px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 35px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(68, 201, 235);
+    -webkit-text-stroke: 2px black;
+}
+
+#pokedexImg #pokeText{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 200px;
+    right: 325px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 251, 0);
+}
+
+#pokedexImg #pokeText2{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 200px;
+    left: -130px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 251, 0);
+}
+
+#pokedexImg #pokeText3{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: -150px;
+    left: 190px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #pokeText4{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: -100px;
+    left: 220px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #pokeText5{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: -50px;
+    left: 270px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(255, 5, 5);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+#pokedexImg #pokeMovs1{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: -3px;
+    left: 160px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #pokeMovs2{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: -3px;
+    left: 370px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+
+}
+
+#pokedexImg #pokeMovs3{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 45px;
+    left: 160px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #pokeMovs4{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 45px;
+    left: 370px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #pokeText6{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 90px;
+    left: 270px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 20px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(255, 5, 5);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+#pokedexImg #Estado1{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 140px;
+    left: 170px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 18px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #Estado2{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 140px;
+    left: 360px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 18px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #Estado3{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 190px;
+    left: 170px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 18px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #Estado4{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 190px;
+    left: 360px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 18px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #Estado5{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 240px;
+    left: 170px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 18px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#pokedexImg #Estado6{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 800px;
+    height: 50px;
+    top: 240px;
+    left: 360px;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    font-weight: 100px;
+    font-size: 18px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:rgb(0, 0, 0);
+}
